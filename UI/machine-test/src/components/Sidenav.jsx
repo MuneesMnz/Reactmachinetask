@@ -33,7 +33,7 @@ const NavList = [
 
 const Sidenav = () => {
   return (
-    <div className="bg-[#20263A] h-screen w-[200px] flex justify-between flex-col  ">
+    <div className="bg-[#20263A] h-screen w-[220px] flex justify-between flex-col sticky top-0 left-0  ">
       <div className="p-5 flex flex-col justify-center items-center gap-1 cursor-pointer">
         <img src={Briefcase} alt="Briefcase" />
         <img src={StatBoard} alt="StatBoard" />
